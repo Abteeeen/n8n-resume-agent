@@ -19,7 +19,7 @@
 An **enterprise-grade n8n automation** that transforms raw resumes into **structured, explainable hiring insights**.  \
 This agent replaces manual resume screening with **AI-powered parsing, scoring, and role recommendations**, fully integrated with **Notion**.
 
-Built for **ATS pipelines**, **HR automation**, and **high-volume hiring workflows**.
+Built for **ATS pipelines**, **HR automation**, and **high-volume hiring workflows**./
 
 ---
 
@@ -89,6 +89,7 @@ graph TD
     H -- Reject --> I["❌ Update Status: Rejected"]
     H -- Accept --> J["📊 Store Scores & Insights"]
     J --> K["✅ Update Status: AI Parsed Done"]
+
 
 
 
