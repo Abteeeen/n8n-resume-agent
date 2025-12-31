@@ -1,4 +1,4 @@
-fff<div align="center">
+ffff<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=230&section=header&text=AI%20Resume%20Agent&fontSize=72&animation=fadeIn&fontAlignY=35&desc=Parse%20•%20Evaluate%20•%20Score%20•%20Decide&descAlignY=55&descAlign=50" />
 </div>
 
@@ -88,6 +88,7 @@ graph TD
     H -- Reject --> I["❌ Update Status: Rejected"]
     H -- Accept --> J["📊 Store Scores & Insights"]
     J --> K["✅ Update Status: AI Parsed Done"]
+
 
 
 
