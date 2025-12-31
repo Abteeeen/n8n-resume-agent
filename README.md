@@ -32,7 +32,6 @@ Hiring teams struggle with:
 - Scaling candidate analysis
 
 This Resume Agent automates the entire process — **objectively, repeatably, and transparently**.
-
 ---
 
 ## 🚀 Key Capabilities
@@ -89,6 +88,7 @@ graph TD
     H -- Reject --> I["❌ Update Status: Rejected"]
     H -- Accept --> J["📊 Store Scores & Insights"]
     J --> K["✅ Update Status: AI Parsed Done"]
+
 
 
 
