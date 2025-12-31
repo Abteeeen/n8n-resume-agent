@@ -41,14 +41,14 @@ This Resume Agent automates the entire process — **objectively, repeatably, an
 * **🧩 Structured Extraction:** Converts unstructured resume text into clean, machine-readable JSON.
 * **🧠 Dual-Agent Intelligence:**
   * **Parsing Agent** → structures resume data
-  * **Decision Agent** → evaluates and scores candidate
+  * **Decision Agent** → evaluates and scores candidates
 * **📊 Explainable Scoring:**
   * Work Experience Score
   * Skills Score
   * Project Score
   * Total Score
 * **💡 Human-Readable Insights:**
-  * Candidate strengths & weaknesses
+  * Candidate strengths & weaknesses.
   * Primary & secondary role recommendations
   * Learnability rating
 * **🚫 Automated Rejection Logic:** Rule-based rejection (e.g., location mismatch).
@@ -89,5 +89,6 @@ graph TD
     H -- Reject --> I["❌ Update Status: Rejected"]
     H -- Accept --> J["📊 Store Scores & Insights"]
     J --> K["✅ Update Status: AI Parsed Done"]
+
 
 
