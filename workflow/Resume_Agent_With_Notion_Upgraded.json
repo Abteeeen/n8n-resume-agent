@@ -1,0 +1,69 @@
+{
+  "name": "Resume Agent With Notion (Upgraded)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "__WEBHOOK_PATH_REMOVED__",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [400, 1140],
+      "id": "",
+      "name": "Webhook",
+      "webhookId": "__WEBHOOK_ID_REMOVED__"
+    },
+
+    ...
+    ...
+
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [460, 580],
+      "id": "",
+      "name": "OpenRouter Chat Model (Gemini 2.5 Flash)",
+      "parameters": {
+        "model": "google/gemini-2.5-flash",
+        "options": {
+          "responseFormat": "json_object"
+        }
+      },
+      "credentials": {}
+    },
+
+    {
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [1220, 580],
+      "id": "",
+      "name": "OpenRouter Chat Model (Gemini 2.5 Flash)1",
+      "parameters": {
+        "model": "google/gemini-2.5-flash",
+        "options": {
+          "responseFormat": "json_object"
+        }
+      },
+      "credentials": {}
+    }
+  ],
+
+  "connections": { 
+    "...": "UNCHANGED – SAME AS ORIGINAL"
+  },
+
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "tags": [
+    {
+      "id": "resume-agent",
+      "name": "resume agent"
+    }
+  ]
+}
