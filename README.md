@@ -73,7 +73,7 @@ This separation improves:
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ System Architectures
 
 ```mermaid
 graph TD
@@ -88,6 +88,7 @@ graph TD
     H -- Reject --> I["❌ Update Status: Rejected"]
     H -- Accept --> J["📊 Store Scores & Insights"]
     J --> K["✅ Update Status: AI Parsed Done"]
+
 
 
 
