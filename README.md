@@ -69,11 +69,11 @@ This separation improves:
 - Accuracy
 - Explainability
 - Maintainability
-- Cost efficiency
+- Cost effect
 
 ---
 
-## 🏗️ System Architectures
+## 🏗️ System Architecture  
 
 ```mermaid
 graph TD
@@ -88,6 +88,7 @@ graph TD
     H -- Reject --> I["❌ Update Status: Rejected"]
     H -- Accept --> J["📊 Store Scores & Insights"]
     J --> K["✅ Update Status: AI Parsed Done"]
+
 
 
 
