@@ -26,7 +26,7 @@ Built for **ATS pipelines**, **HR automation**, and **high-volume hiring workflo
 ## 🎯 What This Agent Solve
 
 Hiring teams struggle with:
-- Manual resume screening
+- Manual resume screening is being done 
 - Inconsistent evaluations
 - Biased or unclear decisions
 - Scaling candidate analysis
@@ -88,6 +88,7 @@ graph TD
     H -- Reject --> I["❌ Update Status: Rejected"]
     H -- Accept --> J["📊 Store Scores & Insights"]
     J --> K["✅ Update Status: AI Parsed Done"]
+
 
 
 
